@@ -1,2 +1,4 @@
 # html-css
- cruso de html e css do curso em video
+Curso de HTML5 e CSS3 do CursoemVideo
+
+Estou aprendendo a criar sites e agora vou gerencia meus repositórios
