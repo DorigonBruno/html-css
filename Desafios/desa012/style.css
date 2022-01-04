@@ -1,2 +1,89 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+:root{
+    --fontepadrão:'Licorice', cursive;
+}
+
+
+html, body{
+    min-width: 100vh;
+    background-color: darkgray;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+
+header p{
+    padding-bottom: 50px;
+}
+
+header p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+header p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+.normal{
+    background-color: white;
+    color: black;
+
+}
+
+.imagem{
+    background-color: rgb(70, 68, 68);
+    color: white;
+}
+
+.imagem  p{
+    width: 400px;
+    background-color: #00000018;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+    font-weight: 800;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
