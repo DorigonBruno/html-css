@@ -17,9 +17,9 @@
 }
 
 
-html, body{
+html , body{
     font-family: var(--fontepadrão);
-    min-width: 100vh;
+    min-width: 100%;
     background-color: darkgray;
 }
 
@@ -78,20 +78,26 @@ section p{
 .imagem{
     background-color: rgb(70, 68, 68);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.315);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #img01{
     background-image: url('imagens/background02.jpg');
-    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #img02{
-
+    background-image: url('imagens/background01.jpg');
+    background-position: right center;
 }
 
 .imagem  p{
-    width: 400px;
-    background-color: #00000018;
+    text-shadow: 1px 1px 0px black;
+    padding: 10px;
+    display: inline-block;
+    background-color: hsla(0, 0%, 0%, 0.514);
 }
 
 footer{
