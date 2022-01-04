@@ -5,14 +5,20 @@
     padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 :root{
-    --fontepadrão:'Licorice', cursive;
+    --fontedemao: 'Caveat', cursive;
+    --fontedestaque: 'Bebas Neue', cursive;
+    --fontepadrão: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 html, body{
+    font-family: var(--fontepadrão);
     min-width: 100vh;
     background-color: darkgray;
 }
@@ -22,9 +28,12 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
-header > h1{
+header h1{
+    font-family: var(--fontedestaque);
+    font-size: 4em;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -47,12 +56,18 @@ header p a:hover{
 
 
 section{
+    font-family: var(--fontedemao);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 2em;
+    font-weight: 750;
 }
 
+section p{
+    padding-bottom: 1em;
+}
 
 .normal{
     background-color: white;
@@ -63,6 +78,15 @@ section{
 .imagem{
     background-color: rgb(70, 68, 68);
     color: white;
+}
+
+#img01{
+    background-image: url('imagens/background02.jpg');
+    background-repeat: no-repeat;
+}
+
+#img02{
+
 }
 
 .imagem  p{
