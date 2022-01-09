@@ -12,20 +12,20 @@
         table{
             width: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha{
-            background-color: gray;
+            height: 400px;
+            width: 400px;
         }
 
         td{
             border: 1px solid black;
             padding: 10px;
             text-align: center;
+            vertical-align: middle;
         }
 
-        .dado{
-            background-color: yellow;
+        .numero{
+            text-align: right;
+            background-color: tomato;
         }
 
     </style>
@@ -39,27 +39,20 @@
             <TD>B1</TD>
             <td>C1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">500</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">55</td>
         </tr>
         <tr>
             <td>A4</td>
-            <td class="dado">B4</td>
+            <td>B4</td>
             <TD>C4</TD>
-        </tr>
-        <tr>
-            <td>A5</td>
-            <td>B5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
         </tr>
     </table>
 </body>
